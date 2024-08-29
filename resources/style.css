@@ -1,0 +1,16 @@
+h1 {
+    color: #00a6ff;
+    font-weight: bolder;
+}
+
+h2 {
+    color: #1a8300;
+    font-weight: bolder;
+}
+
+p {
+    color: aqua;
+    background: #000;
+    /* padding: 10px 10px;
+    border-radius: 10px; */
+}
