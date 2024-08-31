@@ -1,7 +1,6 @@
 package goweb
 
 import (
-	"embed"
 	_ "embed"
 	"fmt"
 	"html/template"
@@ -56,9 +55,6 @@ func TestFileSimpleHTML(t *testing.T) {
 }
 
 /*dengan golang embed*/
-
-//go:embed templates/*.gohtml
-var templates embed.FS
 
 func TemplateEmbed(writer http.ResponseWriter, request *http.Request) {
 
